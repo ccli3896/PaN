@@ -1,0 +1,29 @@
+name: testwagi
+channels:
+  - conda-forge
+dependencies:
+  - bzip2=1.0.8=h93a5062_5
+  - ca-certificates=2024.2.2=hf0a4a13_0
+  - joblib=1.4.2=pyhd8ed1ab_0
+  - libexpat=2.6.2=hebf3989_0
+  - libffi=3.4.2=h3422bc3_5
+  - libsqlite=3.45.3=h091b4b1_0
+  - libzlib=1.2.13=h53f4e23_5
+  - ncurses=6.5=hb89a1cb_0
+  - openssl=3.3.0=h0d3ecfb_0
+  - pip=24.0=pyhd8ed1ab_0
+  - python=3.12.3=h4a7b5fc_0_cpython
+  - readline=8.2=h92ec313_1
+  - setuptools=69.5.1=pyhd8ed1ab_0
+  - tk=8.6.13=h5083fa2_1
+  - tzdata=2024a=h0c530f3_0
+  - wheel=0.43.0=pyhd8ed1ab_1
+  - xz=5.2.6=h57fd34a_0
+  - pip:
+      - jax==0.4.28
+      - jaxlib==0.4.28
+      - ml-dtypes==0.4.0
+      - numpy==1.26.4
+      - opt-einsum==3.3.0
+      - scipy==1.13.0
+prefix: /Users/chl6137/miniforge3/envs/testwagi

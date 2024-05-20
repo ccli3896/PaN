@@ -8,7 +8,6 @@ import itertools
 
 import numpy as np
 from copy import deepcopy
-import matplotlib.pyplot as plt
 
 import jax.numpy as jnp
 from jax import grad, jit

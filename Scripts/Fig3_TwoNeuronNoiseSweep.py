@@ -28,7 +28,6 @@ from jax import grad, jit
 from jax import random
 import jax
 
-import matplotlib.pyplot as plt
 from IPython.display import clear_output
 
 sqsum = lambda x: jnp.sum(jnp.square(x))
