@@ -1,15 +1,20 @@
-# PaN (Prediction and noise).
+# PaN (Prediction and noise)
 We show that neural networks can implement reward-seeking behavior using only local predictive updates and internal noise. These networks are capable of autonomous interaction with an environment and can switch between explore and exploit behavior, which we show is governed by attractor dynamics. Networks can adapt to changes in their architectures, environments, or motor interfaces without any external control signals. When networks have a choice between different tasks, they can form preferences that depend on patterns of noise and initialization, and we show that these preferences can be biased by network architectures or by changing learning rates. Our algorithm presents a flexible, biologically plausible way of interacting with environments without requiring an explicit environmental reward function, allowing for behavior that is both highly adaptable and autonomous.
 
-## Demo notebook.
+## Installing environment
+Use the provided YAML file:
+
+          conda env create -f environment.yml
+
+# Demo notebook
 The demo notebook includes walkthroughs of the base PaN algorithm and generates plots in Appendix Figure 12. These are experiments with a PaN network with 30 hidden neurons and three possible actions with reward values (0,0,.5). The notebook has dependencies on data in the `Noise sweep` folder.
 
-## Videos.
+# Videos
 
 1. Two-neuron trajectory. This video animates every N points for a setup with two neurons and one connecting weight, plotted in the full parameter space $(x_0, x_1, W)$ where $x_i$ denotes activity for neuron $i$ and $W$ denotes the connecting weight.
 2. Open-field track. Every 100th point is plotted for a full 500k-timestep track in the open-field search task in Figure 6b. The track animated is the one plotted in Figure 6c.
 
-## Scripts.
+# Scripts
 Scripts are labelled with their corresponding figure and a description. 
 
 ### Figure 3
