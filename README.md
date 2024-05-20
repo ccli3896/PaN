@@ -2,7 +2,7 @@
 We show that neural networks can implement reward-seeking behavior using only local predictive updates and internal noise. These networks are capable of autonomous interaction with an environment and can switch between explore and exploit behavior, which we show is governed by attractor dynamics. Networks can adapt to changes in their architectures, environments, or motor interfaces without any external control signals. When networks have a choice between different tasks, they can form preferences that depend on patterns of noise and initialization, and we show that these preferences can be biased by network architectures or by changing learning rates. Our algorithm presents a flexible, biologically plausible way of interacting with environments without requiring an explicit environmental reward function, allowing for behavior that is both highly adaptable and autonomous.
 
 ## Installing environment
-Use the provided YAML file:
+With conda, one can use the provided YAML file:
 
           conda env create -f environment.yml
 
