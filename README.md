@@ -61,4 +61,17 @@ All conditions run for 500k timesteps.
           
 ### Figure 8
 
-        python
+All conditions run for 500k timesteps.
+
+`Fig8I_FoodWater.py` runs agents with two input neurons, 30 hidden neurons, and four output motor neurons that are linked to translational movement. 1000 random seeds for Figure 8a-c.
+        
+        python Fig8I_FoodWater.py s, where s is an integer in 999
+
+`Fig8II_FoodWaterConn.py` runs agents with two input neurons, 30 hidden neurons, and four output motor neurons that are linked to translational movement. One input neuron is connected to only 3 hidden neurons; the other is connected to all 30 hidden neurons. 1000 random seeds for Figure 8e-f.
+        
+        python Fig8II_FoodWaterConn.py s, where s is an integer in 999
+
+`Fig8III_FoodWaterLR.py` runs agents with two input neurons, 30 hidden neurons, and four output motor neurons that are linked to translational movement. Both input neurons are fully connected. Learning rates change so that activity learning rates are low when the change in one reward is positive; learning rate modulation changes to the other reward type every 50k timesteps for 500k timesteps total. 1000 random seeds for Figure 8g-i.
+        
+        python Fig8III_FoodWaterLR.py s, where s is an integer in 999
+
