@@ -4,7 +4,8 @@ We show that neural networks can implement reward-seeking behavior using only lo
 ## Installing environment
 With conda, one can use the provided YAML file:
 
-          conda env create -f environment.yml
+          conda env create --name pan --file environment.yml
+          conda activate pan
 
 # Demo notebook
 The demo notebook includes walkthroughs of the base PaN algorithm and generates plots in Appendix Figure 12. These are experiments with a PaN network with 30 hidden neurons and three possible actions with reward values (0,0,.5). The notebook has dependencies on data in the `Noise sweep` folder.
